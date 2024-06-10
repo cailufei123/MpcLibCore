@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'MpcLibCoreSdk'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'MpcLibCoreSdk'
   s.description      = <<-DESC
   MpcLibCoreSdk
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :git => 'git@github.com:cailufei123/MpcLibCore.git',:tag => '1.0.1' }
+  s.source           = { :git => 'https://github.com/cailufei123/MpcLibCore.git',:tag => '1.0.2' }
 
   s.ios.deployment_target = '13.0'
   s.vendored_frameworks =  "Frameworks/MpcLibCoreSdk.xcframework"
