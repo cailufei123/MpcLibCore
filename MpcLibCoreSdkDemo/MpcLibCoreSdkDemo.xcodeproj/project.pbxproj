@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50373252C1962A20031D59B /* MpcLibCoreSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50373242C1962A20031D59B /* MpcLibCoreSdk.xcframework */; };
 		F5BEBF452C1551F30013CBF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEBF442C1551F30013CBF2 /* AppDelegate.m */; };
 		F5BEBF482C1551F30013CBF2 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEBF472C1551F30013CBF2 /* SceneDelegate.m */; };
 		F5BEBF4B2C1551F30013CBF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEBF4A2C1551F30013CBF2 /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		F5BEBF502C1551F50013CBF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5BEBF4F2C1551F50013CBF2 /* Assets.xcassets */; };
 		F5BEBF532C1551F50013CBF2 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F5BEBF522C1551F50013CBF2 /* Base */; };
 		F5BEBF562C1551F50013CBF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5BEBF552C1551F50013CBF2 /* main.m */; };
-		F5BEBF822C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F50373242C1962A20031D59B /* MpcLibCoreSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MpcLibCoreSdk.xcframework; path = ../Frameworks/MpcLibCoreSdk.xcframework; sourceTree = "<group>"; };
 		F5BEBF402C1551F30013CBF2 /* MpcLibCoreSdkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MpcLibCoreSdkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5BEBF432C1551F30013CBF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5BEBF442C1551F30013CBF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		F5BEBF522C1551F50013CBF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5BEBF542C1551F50013CBF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5BEBF552C1551F50013CBF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = MpcLibCoreSdk.xcframework; path = Frameworks/MpcLibCoreSdk.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5BEBF822C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework in Frameworks */,
+				F50373252C1962A20031D59B /* MpcLibCoreSdk.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,7 +61,7 @@
 		F5BEBF372C1551F30013CBF2 = {
 			isa = PBXGroup;
 			children = (
-				F5BEBF812C15F7A60013CBF2 /* MpcLibCoreSdk.xcframework */,
+				F50373242C1962A20031D59B /* MpcLibCoreSdk.xcframework */,
 				F5BEBF422C1551F30013CBF2 /* MpcLibCoreSdkDemo */,
 				F5BEBF412C1551F30013CBF2 /* Products */,
 			);

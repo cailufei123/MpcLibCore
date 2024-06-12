@@ -15,7 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSMutableDictionary * rr =  [LFMpcLibCore getPrivateDebris];
+    NSDictionary * rr =  [LFMpcLibCore getPrivateDebris];
     NSLog(@"%@", rr);
 }
 
